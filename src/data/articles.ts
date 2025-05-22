@@ -219,6 +219,122 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
       relatedProducts: ['gps-pet-tracker', 'pet-camera-treat-dispenser'],
       date: '2024-08-05',
     },
+    {
+      slug: 'entrenamiento-cachorros-refuerzo-positivo-gadgets',
+      title: 'Entrenamiento de Cachorros con Refuerzo Positivo: Guía y Gadgets Útiles 2024',
+      excerpt: 'El refuerzo positivo es clave para un cachorro feliz y bien educado. Descubre técnicas efectivas y cómo algunos gadgets pueden facilitar el proceso de adiestramiento.',
+      content: `
+        <p>La llegada de un cachorro a casa es un momento emocionante, pero también el inicio de una etapa crucial: su educación. El entrenamiento basado en el refuerzo positivo no solo es el método más amable y efectivo, sino que también fortalece el vínculo con tu nueva mascota. En esta guía, exploraremos los fundamentos del refuerzo positivo y cómo algunos gadgets pueden ser tus aliados.</p>
+        
+        <h2>¿Qué es el Entrenamiento con Refuerzo Positivo?</h2>
+        <p>Consiste en premiar los comportamientos deseados para aumentar la probabilidad de que se repitan. En lugar de castigar las conductas incorrectas, se ignora o se redirige al cachorro hacia una acción adecuada, que luego es recompensada. Las recompensas pueden ser comida (premios pequeños y sabrosos), caricias, elogios verbales entusiastas o un juguete favorito.</p>
+        <p><strong>SEO keywords:</strong> entrenamiento cachorros, refuerzo positivo perro, adiestramiento canino cachorros, educar cachorro, socialización cachorro.</p>
+
+        <h3>Principios Básicos del Refuerzo Positivo en Cachorros:</h3>
+        <ul>
+          <li><strong>Timing Perfecto:</strong> La recompensa debe llegar inmediatamente después de que el cachorro realice la acción deseada (en 1-2 segundos).</li>
+          <li><strong>Consistencia:</strong> Todos los miembros de la familia deben usar las mismas señales y recompensar los mismos comportamientos.</li>
+          <li><strong>Sesiones Cortas y Divertidas:</strong> Los cachorros tienen periodos de atención cortos. Es mejor hacer varias sesiones de 5-10 minutos al día que una larga y tediosa.</li>
+          <li><strong>Paciencia y Positividad:</strong> El aprendizaje lleva tiempo. Mantén una actitud positiva y celebra los pequeños progresos.</li>
+          <li><strong>Generalización:</strong> Practica en diferentes lugares y situaciones para que el cachorro aprenda a comportarse bien en cualquier entorno.</li>
+        </ul>
+
+        <h2>Gadgets Útiles para el Entrenamiento con Refuerzo Positivo:</h2>
+        
+        <h3>1. Clicker: Marcador Preciso de Comportamiento</h3>
+        <p>El clicker es una pequeña herramienta que emite un sonido distintivo ("click"). Se utiliza para marcar el instante exacto en que el cachorro realiza el comportamiento correcto, seguido inmediatamente por una recompensa. Ayuda al perro a entender qué acción específica le ha valido el premio.</p>
+        <p><strong>Cómo usarlo:</strong> Primero, "carga" el clicker: haz click y dale un premio varias veces para que asocie el sonido con algo bueno. Luego, úsalo para marcar acciones como sentarse, tumbarse, venir cuando se le llama, etc.</p>
+        <p><strong>SEO keywords:</strong> clicker perro, entrenamiento con clicker, adiestramiento clicker cachorro.</p>
+
+        <h3>2. Bolsas de Premios de Fácil Acceso:</h3>
+        <p>Tener los premios a mano es crucial para recompensar en el momento justo. Las bolsas de premios que se sujetan a la cintura o al cinturón son muy prácticas.</p>
+        
+        <h3>3. Cámaras con Dispensador de Premios Remoto: Refuerzo a Distancia</h3>
+        <p>Para practicar el "quieto" o reforzar el buen comportamiento cuando no estás en la misma habitación, o incluso cuando sales de casa por cortos periodos. Puedes observar a tu cachorro y lanzarle un premio si está tranquilo o jugando adecuadamente.</p>
+        <p><strong>Producto Relacionado:</strong> <a href="/products/pet-camera-treat-dispenser">Cámara con Dispensador de Premios PetVision</a>.</p>
+        <p><strong>SEO keywords:</strong> cámara entrenamiento perro, dispensador premios remoto cachorro.</p>
+
+        <h3>4. Juguetes Interactivos y de Olfato:</h3>
+        <p>Utiliza juguetes rellenables o alfombras olfativas como recompensa especial o para mantenerlo entretenido de forma positiva, especialmente cuando necesitas que esté tranquilo.</p>
+
+        <h2>Comandos Básicos para Empezar:</h2>
+        <ul>
+          <li><strong>Sentado (Sit):</strong> Con un premio, muévelo desde la nariz del cachorro hacia atrás por encima de su cabeza. Naturalmente se sentará. Click y premio.</li>
+          <li><strong>Tumbado (Down/Platz):</strong> Desde la posición de sentado, baja el premio hacia el suelo entre sus patas. Click y premio cuando se tumbe.</li>
+          <li><strong>Venir (Come/Aquí):</strong> Llama a tu cachorro con entusiasmo y recompénsalo generosamente cuando llegue.</li>
+          <li><strong>Dejarlo (Leave it/Sueltas):</strong> Enseña a tu cachorro a soltar objetos o ignorar cosas que no debe coger.</li>
+        </ul>
+
+        <p>El entrenamiento con refuerzo positivo es un viaje gratificante que construye una base sólida de confianza y comunicación con tu cachorro. ¡Disfruta del proceso y celebra cada logro!</p>
+      `,
+      imageUrl: 'https://placehold.co/800x450.png',
+      dataAiHint: 'puppy training class',
+      category: 'perros',
+      relatedProducts: ['pet-camera-treat-dispenser'],
+      date: '2024-08-20',
+    },
+    {
+      slug: 'viajar-con-perro-accesorios-consejos-2024',
+      title: 'Viajar con tu Perro en 2024: Accesorios Esenciales y Consejos Clave',
+      excerpt: '¿Planeando una aventura con tu fiel compañero? Descubre los accesorios imprescindibles y los mejores consejos para que viajar con tu perro sea una experiencia segura, cómoda y divertida para ambos.',
+      content: `
+        <p>Viajar con nuestro perro puede ser una experiencia maravillosa y enriquecedora, pero requiere una buena planificación y el equipamiento adecuado para garantizar su seguridad y bienestar. Ya sea un viaje corto en coche o unas largas vacaciones, aquí te contamos todo lo que necesitas saber.</p>
+        
+        <h2>Planificación del Viaje con tu Perro:</h2>
+        <ul>
+          <li><strong>Visita al Veterinario:</strong> Asegúrate de que tu perro esté al día con sus vacunas y desparasitaciones. Consulta si necesita alguna protección específica para el destino (ej. leishmaniosis). Pide un certificado de salud si viajas a otra comunidad autónoma o país.</li>
+          <li><strong>Identificación:</strong> Tu perro debe llevar siempre su chapa identificativa con tu número de teléfono y, por supuesto, su microchip debe estar actualizado.</li>
+          <li><strong>Alojamiento Pet-Friendly:</strong> Investiga y reserva hoteles, casas rurales o apartamentos que admitan mascotas. Confirma sus políticas específicas.</li>
+          <li><strong>Transporte:</strong> Infórmate sobre las normativas para viajar con perros en coche, tren, avión o barco.</li>
+        </ul>
+        <p><strong>SEO keywords:</strong> viajar con perro, vacaciones perro, accesorios viaje perro, normativa perro coche, hotel pet friendly.</p>
+
+        <h2>Accesorios Esenciales para Viajar con tu Perro:</h2>
+
+        <h3>1. Sistemas de Retención para el Coche: ¡Seguridad Primero!</h3>
+        <p>En España, es obligatorio llevar al perro sujeto en el coche. Las opciones más seguras son:</p>
+        <ul>
+          <li><strong>Transportín Rígido:</strong> Ideal para perros pequeños y medianos. Debe ir colocado en el suelo detrás de los asientos delanteros o en el maletero (si es adecuado y bien sujeto).</li>
+          <li><strong>Arnés de Seguridad de Doble Anclaje:</strong> Se sujeta a los cinturones de seguridad del coche. Elige uno homologado y de buena calidad.</li>
+          <li><strong>Rejilla Divisoria para el Maletero:</strong> Para perros grandes, si viajan en el maletero. Asegúrate de que sea resistente.</li>
+        </ul>
+        <p><strong>SEO keywords:</strong> seguridad perro coche, transportín perro viaje, arnés coche perro homologado.</p>
+
+        <h3>2. Bebedero y Comedero Portátil: Hidratación y Nutrición en Ruta</h3>
+        <p>Es fundamental que tu perro tenga acceso a agua fresca durante el viaje y en el destino. Los bebederos plegables de silicona o las botellas con dispensador son muy prácticos. Lleva su comida habitual para evitar problemas digestivos.</p>
+        
+        <h3>3. Rastreador GPS: Tranquilidad en Entornos Desconocidos</h3>
+        <p>Un entorno nuevo puede ser desorientador para tu perro. Un GPS te permitirá localizarlo rápidamente si se asusta y se escapa.</p>
+        <p><strong>Producto Relacionado:</strong> <a href="/products/gps-pet-tracker">Rastreador GPS PetFinder Max</a>.</p>
+
+        <h3>4. Cama de Viaje o Manta Familiar:</h3>
+        <p>Llevar su propia cama o una manta con su olor le ayudará a sentirse más seguro y cómodo en el nuevo alojamiento.</p>
+
+        <h3>5. Botiquín Básico para Mascotas:</h3>
+        <p>Incluye gasas, antiséptico, suero fisiológico, pinzas (para espigas o garrapatas), y cualquier medicación habitual de tu perro. Consulta a tu veterinario.</p>
+
+        <h3>6. Juguetes y Entretenimiento:</h3>
+        <p>Sus juguetes favoritos pueden ayudar a reducir el estrés y mantenerlo entretenido durante el viaje o en el hotel.</p>
+        <p><strong>Producto Relacionado:</strong> <a href="/products/dog-ball-launcher">Lanzador Automático de Pelotas ProSeries (para jugar en el destino)</a>.</p>
+
+        <h3>7. Bolsas Higiénicas y Toallitas:</h3>
+        <p>Imprescindibles para mantener la limpieza en cualquier lugar.</p>
+
+        <h2>Consejos Adicionales para un Viaje Exitoso:</h2>
+        <ul>
+          <li><strong>Acostumbra a tu perro al coche:</strong> Realiza viajes cortos y positivos antes de uno largo.</li>
+          <li><strong>Haz paradas frecuentes:</strong> Cada 2 horas aproximadamente, para que pueda estirar las patas, beber agua y hacer sus necesidades.</li>
+          <li><strong>Nunca dejes a tu perro solo en el coche:</strong> Especialmente en días calurosos, el riesgo de golpe de calor es muy alto.</li>
+          <li><strong>Mantén sus rutinas:</strong> Intenta mantener sus horarios de paseo y comida lo más parecidos posible a los habituales.</li>
+        </ul>
+        <p>Viajar con tu perro puede crear recuerdos inolvidables. Con la preparación adecuada y los gadgets correctos, ¡la aventura será un éxito para todos!</p>
+      `,
+      imageUrl: 'https://placehold.co/800x450.png',
+      dataAiHint: 'dog car travel',
+      category: 'perros',
+      relatedProducts: ['gps-pet-tracker', 'dog-ball-launcher'],
+      date: '2024-08-28',
+    },
   ],
   gatos: [
     {
@@ -372,7 +488,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         imageUrl: 'https://placehold.co/800x450.png',
         dataAiHint: 'cat litter box',
         category: 'gatos',
-        relatedProducts: [], // Idealmente, añadir un producto de arenero inteligente
+        relatedProducts: [],
         date: '2024-07-25',
       },
       {
@@ -429,6 +545,140 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         relatedProducts: ['gps-pet-tracker', 'pet-camera-treat-dispenser'],
         date: '2024-08-10',
       },
+    {
+      slug: 'lenguaje-corporal-gatos-guia-2024',
+      title: 'El Lenguaje Corporal de los Gatos: Guía Completa para Entender a tu Felino 2024',
+      excerpt: 'Descifra las señales sutiles y evidentes de tu gato. Aprende a interpretar sus posturas, maullidos, ronroneos y movimientos de cola para una mejor comunicación y un vínculo más fuerte.',
+      content: `
+        <p>Los gatos se comunican constantemente con nosotros y con otros animales, pero su lenguaje es mucho más sutil que el de los perros. Entender su lenguaje corporal es fundamental para saber cómo se sienten, qué necesitan y cómo responder adecuadamente, fortaleciendo así vuestro vínculo y previniendo malentendidos.</p>
+        
+        <h2>Descifrando las Señales Felinas: Una Guía Detallada</h2>
+        <p><strong>SEO keywords:</strong> lenguaje corporal gatos, entender mi gato, comunicación felina, señales gato, comportamiento gatos, etología felina.</p>
+
+        <h3>1. La Cola: Un Barómetro Emocional</h3>
+        <ul>
+          <li><strong>Cola Alta y Erguida (puede tener la punta ligeramente curvada):</strong> Gato feliz, confiado, amistoso. ¡Es un saludo positivo!</li>
+          <li><strong>Cola Hinchada o Erizada (como un cepillo):</strong> Miedo extremo o agresión defensiva. El gato se siente amenazado y trata de parecer más grande.</li>
+          <li><strong>Cola Baja o Escondida entre las Patas:</strong> Sumisión, miedo, inseguridad.</li>
+          <li><strong>Movimientos Lentos y Ondulantes de la Cola:</strong> Interés, curiosidad, o a veces, indecisión.</li>
+          <li><strong>Golpeteo Rápido de la Cola o Azotes Laterales:</strong> Irritación, enfado, advertencia. ¡Cuidado, puede estar a punto de atacar o querer que lo dejes en paz!</li>
+          <li><strong>Cola Vibrando Ligeramente:</strong> Excitación positiva, a menudo cuando te saluda o espera algo bueno (como comida).</li>
+        </ul>
+
+        <h3>2. Las Orejas: Antenas de Información</h3>
+        <ul>
+          <li><strong>Orejas Hacia Adelante y Erguidas:</strong> Alerta, interesado, curioso.</li>
+          <li><strong>Orejas Girando Ligeramente:</strong> Escuchando atentamente su entorno.</li>
+          <li><strong>Orejas Aplanadas Hacia los Lados (orejas de "avión"):</strong> Irritación, miedo, agresión. Es una señal de advertencia clara.</li>
+          <li><strong>Orejas Aplanadas Hacia Atrás (pegadas a la cabeza):</strong> Miedo intenso, sumisión o preparándose para atacar.</li>
+        </ul>
+        <p><strong>Producto Relacionado (para observar):</strong> <a href="/products/pet-camera-treat-dispenser">Cámara con Dispensador de Premios PetVision</a>, útil para observar el comportamiento y las señales cuando no estás.</p>
+
+        <h3>3. Los Ojos: Ventanas del Alma Felina</h3>
+        <ul>
+          <li><strong>Pupilas Dilatadas:</strong> Pueden indicar miedo, excitación (positiva o negativa), poca luz, o agresión. El contexto es clave.</li>
+          <li><strong>Pupilas Contraídas (finas):</strong> Relajación en un entorno luminoso, o enfado/agresión si van acompañadas de otras señales tensas.</li>
+          <li><strong>Parpadeo Lento ("beso de gato"):</strong> ¡Una señal de confianza y afecto! Si tu gato te parpadea lentamente, devuélvele el gesto.</li>
+          <li><strong>Mirada Fija e Intensa:</strong> Puede ser un desafío (en interacciones entre gatos) o una señal de amenaza si otras posturas son agresivas. Hacia un humano, si está relajado, puede ser curiosidad.</li>
+        </ul>
+
+        <h3>4. El Cuerpo y la Postura General:</h3>
+        <ul>
+          <li><strong>Cuerpo Relajado, Andar Suelto:</strong> Gato tranquilo y confiado.</li>
+          <li><strong>Cuerpo Tenso, Agachado:</strong> Miedo, preparándose para huir o esconderse.</li>
+          <li><strong>Lomo Arqueado y Pelo Erizado:</strong> Gato muy asustado o agresivo, intentando parecer más grande.</li>
+          <li><strong>Rodar y Mostrar la Barriga:</strong> ¡Ojo! Aunque a veces es una señal de confianza y juego (especialmente con gatos que conoces bien), también puede ser una postura defensiva si se sienten atrapados. No todos los gatos disfrutan de caricias en la barriga.</li>
+          <li><strong>Amasar (con las patas delanteras):</strong> Comportamiento instintivo de confort, a menudo asociado con la lactancia. Un gato que amasa está contento y relajado.</li>
+        </ul>
+
+        <h3>5. Vocalizaciones: Más que Simples Maullidos</h3>
+        <ul>
+          <li><strong>Ronroneo:</strong> Generalmente indica satisfacción, pero también puede ser una forma de calmarse en situaciones de estrés o dolor.</li>
+          <li><strong>Maullido Corto y Agudo:</strong> Saludo, petición de atención.</li>
+          <li><strong>Maullidos Largos y lastimeros:</strong> Queja, demanda, preocupación.</li>
+          <li><strong>Bufido, Gruñido, Escupitajo:</strong> Señales claras de advertencia, agresión, miedo. ¡Mantén la distancia!</li>
+          <li><strong>Trinos o Parloteos (a menudo mirando por la ventana a pájaros):</strong> Excitación por una presa potencial, a veces frustración por no poder alcanzarla.</li>
+        </ul>
+
+        <p>Observar a tu gato y aprender a interpretar estas señales en conjunto te permitirá entender mejor sus necesidades, respetar sus límites y construir una relación más armoniosa y profunda. ¡Cada gato es un individuo, así que presta atención a sus particularidades!</p>
+      `,
+      imageUrl: 'https://placehold.co/800x450.png',
+      dataAiHint: 'cat body language',
+      category: 'gatos',
+      relatedProducts: ['pet-camera-treat-dispenser'],
+      date: '2024-08-22',
+    },
+    {
+      slug: 'rascadores-gatos-guia-eleccion-2024',
+      title: 'Rascadores para Gatos: Guía Esencial para Elegir el Ideal y Salvar tus Muebles en 2024',
+      excerpt: 'El rascado es una necesidad natural para los gatos. Descubre por qué es tan importante, los tipos de rascadores disponibles y cómo elegir el perfecto para tu felino y tu hogar.',
+      content: `
+        <p>Si compartes tu vida con un gato, es muy probable que hayas presenciado su instintiva necesidad de rascar. Lejos de ser un acto de vandalismo contra tus muebles, el rascado es un comportamiento esencial para su bienestar físico y emocional. Proporcionarles alternativas adecuadas, como un buen rascador, es clave para una convivencia feliz y unos muebles intactos.</p>
+
+        <h2>¿Por Qué Rascan los Gatos? Desmitificando el Comportamiento</h2>
+        <ul>
+          <li><strong>Mantenimiento de las Uñas:</strong> El rascado ayuda a eliminar las capas externas muertas de sus uñas, manteniéndolas afiladas y sanas.</li>
+          <li><strong>Marcaje Territorial:</strong> Los gatos tienen glándulas odoríferas en sus patas. Al rascar, dejan marcas visuales y olfativas que señalan su territorio.</li>
+          <li><strong>Estiramiento y Ejercicio:</strong> Rascar les permite estirar los músculos de la espalda, hombros y patas.</li>
+          <li><strong>Liberación de Estrés y Emociones:</strong> Puede ser una forma de liberar energía acumulada, excitación o incluso ansiedad.</li>
+        </ul>
+        <p><strong>SEO keywords:</strong> rascador gato, por qué gatos rascan, tipos rascadores gatos, evitar gato arañe muebles, enriquecimiento ambiental felino.</p>
+
+        <h3>Tipos de Rascadores para Gatos: Encuentra el Favorito de tu Felino</h3>
+        <p>No todos los gatos prefieren el mismo tipo de rascador. Es buena idea ofrecer variedad, especialmente si tienes varios gatos.</p>
+        
+        <h4>1. Rascadores Verticales (Postes o Torres):</h4>
+        <p>Son los más comunes. Permiten al gato estirarse completamente. La altura es importante: debe ser lo suficientemente alto para que tu gato pueda estirarse por completo (al menos 1.5 veces su longitud). La base debe ser ancha y pesada para evitar que se tambalee o caiga.</p>
+        <ul>
+          <li><strong>Materiales:</strong> Sisal (cuerda resistente), cartón corrugado, alfombra, madera. El sisal suele ser el favorito.</li>
+        </ul>
+
+        <h4>2. Rascadores Horizontales:</h4>
+        <p>Planchas o alfombrillas que se colocan en el suelo. Algunos gatos prefieren rascar en horizontal, imitando el rascado en troncos caídos.</p>
+        <ul>
+          <li><strong>Materiales:</strong> Cartón corrugado (muy popular y económico), sisal, alfombra.</li>
+        </ul>
+
+        <h4>3. Rascadores Inclinados o en Ángulo:</h4>
+        <p>Ofrecen una posición intermedia entre vertical y horizontal. A muchos gatos les encantan.</p>
+
+        <h4>4. Rascadores Integrados en Muebles (Árboles para Gatos):</h4>
+        <p>Los árboles para gatos suelen combinar postes rascadores con plataformas, cuevas y juguetes. Son una excelente opción para proporcionar enriquecimiento y múltiples superficies de rascado.</p>
+        
+        <h4>5. Rascadores de Pared:</h4>
+        <p>Se fijan a la pared, ahorrando espacio y ofreciendo una superficie estable. Pueden ser verticales u horizontales.</p>
+
+        <h3>Cómo Elegir el Rascador Perfecto y Dónde Colocarlo:</h3>
+        <ul>
+          <li><strong>Estabilidad:</strong> Un rascador que se tambalea o cae asustará a tu gato y no lo usará. Debe ser robusto.</li>
+          <li><strong>Material:</strong> Observa qué texturas prefiere tu gato. Si ya está rascando tus muebles, fíjate en el material (tela del sofá, madera de las patas de una silla).</li>
+          <li><strong>Tamaño:</strong> Asegúrate de que sea apropiado para el tamaño y la edad de tu gato.</li>
+          <li><strong>Ubicación Estratégica:</strong>
+            <ul>
+              <li>Cerca de sus zonas de descanso favoritas (los gatos suelen rascar al despertar).</li>
+              <li>En zonas de paso o áreas sociales de la casa (para el marcaje territorial).</li>
+              <li>Si ya está rascando un mueble específico, coloca un rascador atractivo justo al lado.</li>
+            </ul>
+          </li>
+          <li><strong>Atracción Adicional:</strong> Puedes frotar hierba gatera (catnip) en el rascador nuevo para hacerlo más atractivo. Elogia y recompensa a tu gato cuando use el rascador.</li>
+        </ul>
+
+        <h3>Qué Hacer si tu Gato Sigue Rascando los Muebles:</h3>
+        <ul>
+          <li><strong>Nunca Castigues:</strong> El castigo puede generar miedo y empeorar el problema.</li>
+          <li><strong>Haz los Muebles Indeseables:</strong> Cubre temporalmente las zonas afectadas con cinta adhesiva de doble cara, papel de aluminio o protectores específicos. Usa repelentes con olores cítricos (a los gatos no les gustan).</li>
+          <li><strong>Asegúrate de que el Rascador Sea Más Atractivo:</strong> Revisa los puntos anteriores (estabilidad, material, ubicación).</li>
+          <li><strong>Corta sus Uñas Regularmente:</strong> Esto no elimina la necesidad de rascar, pero reduce el daño potencial.</li>
+          <li><strong>Consulta con un Etólogo Felino:</strong> Si el problema persiste, un profesional puede ayudarte a identificar la causa y encontrar soluciones.</li>
+        </ul>
+        <p>Proporcionar rascadores adecuados es una inversión en la felicidad de tu gato y la armonía de tu hogar. ¡Con un poco de observación y las opciones correctas, tu felino y tus muebles te lo agradecerán!</p>
+      `,
+      imageUrl: 'https://placehold.co/800x450.png',
+      dataAiHint: 'cat scratching post',
+      category: 'gatos',
+      relatedProducts: [], // No hay un producto específico en el catálogo actual.
+      date: '2024-08-29',
+    },
   ],
   roedores: [
     {
@@ -586,8 +836,122 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         imageUrl: 'https://placehold.co/800x450.png',
         dataAiHint: 'rodent eating',
         category: 'roedores',
-        relatedProducts: [], // Podríamos añadir un producto si existiera uno adecuado
+        relatedProducts: [],
         date: '2024-08-12',
+      },
+      {
+        slug: 'limpieza-mantenimiento-habitat-roedores-2024',
+        title: 'Guía de Limpieza y Mantenimiento del Hábitat de Roedores: Salud e Higiene 2024',
+        excerpt: 'Un hábitat limpio es esencial para la salud de tu hámster, cobaya o jerbo. Aprende la frecuencia, los productos seguros y los pasos para mantener su hogar impecable y libre de riesgos.',
+        content: `
+          <p>Mantener una higiene adecuada en el hábitat de tu pequeño roedor es tan importante como su alimentación o enriquecimiento ambiental. Un entorno limpio previene enfermedades, reduce olores y contribuye significativamente a su bienestar general. Esta guía te ayudará a establecer una rutina de limpieza efectiva y segura.</p>
+          
+          <h2>Frecuencia de Limpieza: ¿Cada Cuánto?</h2>
+          <p>La frecuencia ideal depende de varios factores: el tamaño de la jaula, el número de animales, la especie y el tipo de sustrato utilizado.</p>
+          <ul>
+            <li><strong>Limpieza Diaria Parcial:</strong>
+              <ul>
+                <li>Retira heces visibles y restos de comida fresca (verduras, frutas) que puedan descomponerse.</li>
+                <li>Limpia el bebedero y rellénalo con agua fresca.</li>
+                <li>Revisa y limpia el comedero si es necesario.</li>
+                <li>Limpia las "esquinas de baño" si tu mascota tiende a usar un área específica.</li>
+              </ul>
+            </li>
+            <li><strong>Limpieza Semanal (o cada pocos días):</strong>
+              <ul>
+                <li>Cambia el sustrato de las áreas más sucias o de toda la jaula si es pequeña o si huele. Para jaulas más grandes con sustrato profundo, puedes hacer una limpieza parcial más profunda, retirando y reemplazando solo una parte del sustrato.</li>
+                <li>Limpia los accesorios como ruedas, túneles, casas, etc.</li>
+              </ul>
+            </li>
+            <li><strong>Limpieza Profunda Mensual (o según necesidad):</strong>
+              <ul>
+                <li>Vacía completamente la jaula.</li>
+                <li>Lava la jaula y todos los accesorios no porosos con agua tibia y un limpiador seguro para mascotas (ver más abajo). Enjuaga muy bien.</li>
+                <li>Reemplaza todo el sustrato.</li>
+              </ul>
+            </li>
+          </ul>
+          <p><strong>SEO keywords:</strong> limpiar jaula hámster, higiene cobayas, mantenimiento hábitat jerbos, sustrato roedores seguro, desinfección jaula roedor.</p>
+
+          <h2>Productos de Limpieza Seguros para Roedores:</h2>
+          <ul>
+            <li><strong>Agua Caliente y Jabón Suave (tipo lavavajillas neutro):</strong> Para la mayoría de las limpiezas. Asegúrate de enjuagar abundantemente para no dejar residuos.</li>
+            <li><strong>Vinagre Blanco Diluido:</strong> Una mezcla 50/50 de vinagre blanco y agua es un buen desinfectante natural y ayuda a eliminar depósitos de orina. Enjuaga bien después, ya que a algunos roedores no les gusta el olor.</li>
+            <li><strong>Limpiadores Enzimáticos Específicos para Mascotas:</strong> Son excelentes para descomponer manchas y olores orgánicos. Sigue las instrucciones del producto.</li>
+            <li><strong>Toallitas Desinfectantes Seguras para Mascotas (sin químicos agresivos):</strong> Útiles para limpiezas rápidas de accesorios.</li>
+          </ul>
+          <p><strong>¡Evita Absolutamente!:</strong> Lejía, amoniaco, limpiadores de baño con químicos fuertes, desinfectantes con fenoles (como algunos tipos de Lysol), y cualquier producto con fragancias intensas o aceites esenciales, ya que pueden ser tóxicos o irritantes para el sistema respiratorio sensible de los roedores.</p>
+          
+          <h3>Pasos para la Limpieza Profunda:</h3>
+          <ol>
+            <li><strong>Traslada a tu Mascota:</strong> Coloca a tu roedor en un transportín seguro o en un área de juego temporal mientras limpias su hábitat principal.</li>
+            <li><strong>Vacía la Jaula:</strong> Retira todo el sustrato viejo, restos de comida y heces.</li>
+            <li><strong>Lava la Jaula y Accesorios:</strong> Usa agua caliente y tu limpiador seguro elegido. Frota bien todas las superficies. Para manchas difíciles, deja actuar el limpiador unos minutos.</li>
+            <li><strong>Enjuaga Abundantemente:</strong> Es crucial eliminar cualquier residuo de limpiador.</li>
+            <li><strong>Seca Completamente:</strong> Asegúrate de que todo esté seco antes de añadir sustrato nuevo para evitar el moho.</li>
+            <li><strong>Añade Sustrato Fresco:</strong> Coloca una capa generosa de sustrato limpio y seguro.</li>
+            <li><strong>Reorganiza (Opcional):</strong> Puedes cambiar ligeramente la disposición de los accesorios para ofrecer novedad y estimulación (sin causar estrés por cambios drásticos).</li>
+            <li><strong>Devuelve a tu Mascota a su Hogar Limpio:</strong> Observa cómo explora su renovado entorno.</li>
+          </ol>
+          
+          <p>Una rutina de limpieza consistente no solo mantendrá a tu pequeño amigo más saludable y feliz, sino que también hará que su hábitat sea un lugar más agradable para tener en tu hogar. ¡Tu roedor te lo agradecerá con su vitalidad!</p>
+          <p><strong>Recuerda:</strong> La higiene es clave. Observa los hábitos de tu mascota y ajusta la frecuencia de limpieza según sea necesario.</p>
+        `,
+        imageUrl: 'https://placehold.co/800x450.png',
+        dataAiHint: 'cleaning hamster cage',
+        category: 'roedores',
+        relatedProducts: [],
+        date: '2024-08-23',
+      },
+      {
+        slug: 'socializacion-roedores-cobayas-hamsters-jerbos-2024',
+        title: 'Socialización de Pequeños Roedores: Consejos para Cobayas, Hámsters y Jerbos 2024',
+        excerpt: 'Comprender las necesidades sociales de tu roedor es vital. ¿Deben vivir solos o en grupo? Aprende a socializar cobayas, hámsters y jerbos correctamente para una vida feliz y sin conflictos.',
+        content: `
+          <p>Los pequeños roedores, a pesar de su tamaño, tienen vidas sociales complejas y variadas según su especie. Algunos son estrictamente solitarios, mientras que otros prosperan en compañía. Entender estas diferencias es crucial para proporcionarles un entorno que satisfaga sus necesidades de comportamiento y evite el estrés o las peleas.</p>
+          
+          <h2>Necesidades Sociales Específicas por Especie:</h2>
+          <p><strong>SEO keywords:</strong> socializar cobayas, hámster solitario o en grupo, jerbos compañía, comportamiento social roedores, presentar roedores.</p>
+
+          <h3>Cobayas (Cuyes): Altamente Sociales</h3>
+          <ul>
+            <li>Las cobayas son animales gregarios por naturaleza y generalmente <strong>deben vivir en parejas o grupos del mismo sexo</strong> (o un macho castrado con hembras). Una cobaya solitaria puede sufrir estrés y depresión.</li>
+            <li><strong>Presentación:</strong> Introduce nuevas cobayas gradualmente en un territorio neutral y espacioso, supervisando sus interacciones. Pueden existir pequeñas disputas jerárquicas al principio. Ofrece múltiples escondites y recursos (comida, agua) para evitar competencia.</li>
+            <li><strong>Vínculo Humano:</strong> También disfrutan de la interacción con sus dueños. Pasa tiempo con ellas, háblales suavemente y ofréceles premios de tu mano.</li>
+          </ul>
+
+          <h3>Hámsters: Mayormente Solitarios (con excepciones)</h3>
+          <ul>
+            <li><strong>Hámster Sirio (Dorado):</strong> Es <strong>estrictamente solitario y territorial</strong>. Nunca deben alojarse juntos después de las 8-10 semanas de edad, ya que pelearán hasta la muerte.</li>
+            <li><strong>Hámsters Enanos (Roborovski, Ruso, Campbell, Chino):</strong> Algunas especies enanas PUEDEN vivir en parejas o pequeños grupos del mismo sexo si se crían juntos desde pequeños y la jaula es muy espaciosa con múltiples recursos. Sin embargo, las peleas pueden surgir en cualquier momento y es crucial estar preparado para separarlos permanentemente si es necesario. Los Roborovski suelen ser los más tolerantes.
+                <p><strong>Producto Relacionado:</strong> <a href="/products/rodent-maze-house">Casa Laberinto Modular RodentFun</a> (útil para ofrecer escondites separados si se intenta la convivencia de enanos).</p>
+            </li>
+            <li><strong>Vínculo Humano:</strong> Todos los hámsters pueden aprender a interactuar con humanos con paciencia y manejo suave, aunque algunos son más tímidos que otros.</li>
+          </ul>
+          
+          <h3>Jerbos: Sociales y Curiosos</h3>
+          <ul>
+            <li>Los jerbos son animales muy sociales y <strong>deben vivir en parejas o pequeños grupos del mismo sexo</strong>, idealmente hermanos de camada. Un jerbo solitario puede deprimirse.</li>
+            <li><strong>Presentación:</strong> La introducción de jerbos adultos puede ser complicada y requiere un método de "jaula dividida" (split-cage) durante varias semanas para que se acostumbren gradualmente al olor del otro antes de permitir el contacto directo.</li>
+            <li><strong>Dinámica de Grupo:</strong> Generalmente forman clanes estables. Si un miembro del grupo muere, a veces es difícil introducir un nuevo compañero a un jerbo adulto.</li>
+          </ul>
+
+          <h2>Consejos Generales para la Socialización y Convivencia:</h2>
+          <ul>
+            <li><strong>Investiga tu Especie:</strong> Antes de adquirir más de un roedor, infórmate a fondo sobre sus necesidades sociales específicas.</li>
+            <li><strong>Espacio Adecuado:</strong> Si alojas varios roedores, la jaula debe ser significativamente más grande y con múltiples recursos (ruedas, comederos, bebederos, escondites) para minimizar la competencia.</li>
+            <li><strong>Observación Constante:</strong> Supervisa las interacciones, especialmente al principio. Busca signos de estrés o agresión (mordiscos, persecuciones constantes, bloqueo de acceso a recursos).</li>
+            <li><strong>Separación si es Necesario:</strong> Ten siempre preparada una jaula de repuesto en caso de que necesites separar a los animales permanentemente. La seguridad y el bienestar individual son primordiales.</li>
+            <li><strong>Socialización con Humanos:</strong> Independientemente de si viven solos o en grupo, dedica tiempo a interactuar con tus roedores. Acostúmbralos a tu presencia y manejo gradualmente, usando premios y hablando en voz baja.</li>
+          </ul>
+          
+          <p>Comprender y respetar las necesidades sociales de tu pequeño roedor es fundamental para su felicidad. Un animal bien socializado (con su propia especie, si aplica, y contigo) será una mascota más sana, activa y disfrutable.</p>
+        `,
+        imageUrl: 'https://placehold.co/800x450.png',
+        dataAiHint: 'guinea pigs group',
+        category: 'roedores',
+        relatedProducts: ['rodent-maze-house'],
+        date: '2024-08-30',
       },
   ],
   aves: [
@@ -757,6 +1121,149 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         relatedProducts: ['bird-smart-feeder', 'pet-camera-treat-dispenser'],
         date: '2024-08-15',
       },
+      {
+        slug: 'nutricion-avanzada-aves-domesticas-guia-2024',
+        title: 'Nutrición Avanzada para Aves Domésticas: Guía Completa 2024 (Más Allá de las Semillas)',
+        excerpt: 'Una dieta equilibrada es vital para la salud y longevidad de tu ave. Descubre los componentes esenciales, desde pellets de calidad hasta frutas, verduras y suplementos, y cómo evitar los errores comunes de alimentación.',
+        content: `
+          <p>La nutrición es uno de los pilares fundamentales para la salud y el bienestar de las aves domésticas. Una dieta inadecuada, a menudo basada exclusivamente en semillas, es una de las principales causas de enfermedad y reducción de la esperanza de vida en aves cautivas. Esta guía te ayudará a entender los componentes de una dieta equilibrada y cómo ofrecer la mejor nutrición a tu compañero emplumado.</p>
+          
+          <h2>Los Peligros de una Dieta Basada Solo en Semillas:</h2>
+          <p>Las mezclas de semillas, aunque populares, son deficientes en muchos nutrientes esenciales y altas en grasa. Una dieta exclusiva de semillas puede llevar a:</p>
+          <ul>
+            <li>Deficiencias de vitaminas (especialmente Vitamina A) y minerales (como el calcio).</li>
+            <li>Obesidad y enfermedad del hígado graso.</li>
+            <li>Problemas de plumaje y piel.</li>
+            <li>Sistema inmunológico debilitado.</li>
+            <li>Menor esperanza de vida.</li>
+          </ul>
+          <p><strong>SEO keywords:</strong> dieta loros, alimentación periquitos, comida canarios equilibrada, pellets aves, frutas verduras para aves, nutrición aviar.</p>
+
+          <h2>Componentes de una Dieta Equilibrada para Aves:</h2>
+
+          <h3>1. Pellets de Alta Calidad (Base de la Dieta):</h3>
+          <p>Los pellets formulados específicamente para la especie de tu ave deben constituir la mayor parte de su dieta (aproximadamente 60-80%). Están diseñados para ser nutricionalmente completos.</p>
+          <ul>
+            <li><strong>Elección:</strong> Busca marcas reputadas, sin colorantes ni azúcares añadidos. Elige el tamaño de pellet adecuado para tu ave.</li>
+            <li><strong>Transición:</strong> Convertir un ave acostumbrada a las semillas a una dieta de pellets puede llevar tiempo y paciencia. Introduce los pellets gradualmente.</li>
+          </ul>
+          <p><strong>Producto Relacionado:</strong> Considera nuestro <a href="/products/bird-smart-feeder">Comedero Inteligente "AvianCam"</a> para dispensar pellets de forma controlada y observar hábitos alimenticios.</p>
+
+          <h3>2. Verduras Frescas y Variadas (Aproximadamente 20-30%):</h3>
+          <p>Ofrece una amplia variedad de verduras de hoja verde oscuro (espinacas, acelgas, kale), brócoli, zanahoria, pimiento, guisantes, judías verdes, calabacín, etc. Lávalas bien.</p>
+          <ul>
+            <li><strong>Evita:</strong> Aguacate (tóxico), cebolla, ajo, champiñones crudos.</li>
+          </ul>
+
+          <h3>3. Frutas Frescas (Pequeñas Cantidades, como un 5-10%):</h3>
+          <p>Manzana (sin semillas), pera, plátano, bayas (arándanos, frambuesas), mango, papaya, melón. Ofrécelas con moderación debido a su contenido de azúcar.</p>
+          <ul>
+            <li><strong>Evita:</strong> Semillas de manzana, huesos de cereza, melocotón, albaricoque (contienen cianuro).</li>
+          </ul>
+
+          <h3>4. Legumbres y Granos Cocidos (Ocasionalmente):</h3>
+          <p>Lentejas, garbanzos, quinoa, arroz integral cocidos pueden ofrecer variedad y nutrientes adicionales.</p>
+
+          <h3>5. Semillas y Frutos Secos (Como Premios o Pequeña Parte de la Dieta):</h3>
+          <p>Deben ser una porción muy pequeña de la dieta total, especialmente para especies propensas a la obesidad. Ofrece semillas de calidad y frutos secos naturales sin sal (almendras, nueces, con moderación).</p>
+          
+          <h3>6. Suplementos (Solo si son Necesarios y Bajo Supervisión Veterinaria):</h3>
+          <p>Una dieta bien equilibrada generalmente no requiere suplementos. Si tu veterinario aviar detecta alguna deficiencia específica (ej. calcio), te recomendará el suplemento adecuado.</p>
+          <ul>
+            <li><strong>Calcio:</strong> Especialmente importante para hembras en época de puesta. Hueso de jibia o bloques de calcio pueden estar disponibles.</li>
+          </ul>
+
+          <h3>7. Agua Fresca y Limpia:</h3>
+          <p>Debe estar disponible en todo momento y cambiarse al menos una vez al día, o más si se ensucia.</p>
+
+          <h2>Consejos para una Alimentación Exitosa:</h2>
+          <ul>
+            <li><strong>Introduce Nuevos Alimentos Gradualmente:</strong> Las aves pueden ser neofóbicas (miedo a lo nuevo). Sé paciente.</li>
+            <li><strong>Presentación Atractiva:</strong> Corta frutas y verduras en diferentes formas, ensártalas en brochetas, mézclalas con sus alimentos favoritos.</li>
+            <li><strong>Establece Horarios de Comida:</strong> Aunque los pellets pueden estar disponibles, ofrece alimentos frescos en momentos específicos para fomentar su consumo y poder retirarlos antes de que se estropeen.</li>
+            <li><strong>Observa a tu Ave:</strong> Aprende sus preferencias, pero asegúrate de que la dieta sea equilibrada y no solo lo que más le gusta.</li>
+            <li><strong>Consulta a un Veterinario Aviar:</strong> Es tu mejor recurso para obtener asesoramiento nutricional específico para tu ave.</li>
+          </ul>
+          <p>Una nutrición adecuada es la mejor inversión que puedes hacer en la salud y felicidad de tu compañero emplumado. ¡Una dieta variada y equilibrada se traduce en un ave vibrante y llena de vida!</p>
+        `,
+        imageUrl: 'https://placehold.co/800x450.png',
+        dataAiHint: 'parrot eating fruit',
+        category: 'aves',
+        relatedProducts: ['bird-smart-feeder', 'interactive-bird-puzzle-toy'],
+        date: '2024-08-25',
+      },
+      {
+        slug: 'prevencion-manejo-picaje-loros-2024',
+        title: 'Prevención y Manejo del Picaje en Loros: Guía Completa 2024',
+        excerpt: 'El picaje es un problema angustiante para los dueños de loros. Entiende las causas médicas y de comportamiento, y descubre estrategias efectivas de enriquecimiento ambiental y manejo para ayudar a tu ave.',
+        content: `
+          <p>El picaje, o la acción de un loro de arrancarse o dañar sus propias plumas, es un comportamiento complejo y a menudo desgarrador para los dueños. No es una enfermedad en sí misma, sino un síntoma que puede tener múltiples causas subyacentes, tanto médicas como relacionadas con el comportamiento o el entorno.</p>
+          
+          <h2>Causas Comunes del Picaje en Loros:</h2>
+          <p><strong>SEO keywords:</strong> picaje loros, loro se arranca plumas, causas picaje aves, tratamiento picaje loros, enriquecimiento ambiental loros.</p>
+
+          <h3>1. Causas Médicas (Siempre Descartar Primero):</h3>
+          <ul>
+            <li><strong>Problemas de Piel y Plumas:</strong> Infecciones bacterianas, fúngicas (hongos) o virales; parásitos externos (ácaros, piojos); alergias (alimentarias o ambientales).</li>
+            <li><strong>Dolor o Malestar Interno:</strong> Enfermedades hepáticas, renales, gastrointestinales, tumores, artritis. El ave puede picarse en la zona donde siente dolor.</li>
+            <li><strong>Deficiencias Nutricionales:</strong> Falta de vitaminas (especialmente A), minerales o aminoácidos esenciales. Una dieta pobre basada en semillas es un factor de riesgo.</li>
+            <li><strong>Intoxicaciones:</strong> Metales pesados (zinc, plomo de jaulas viejas o juguetes inadecuados), micotoxinas de alimentos en mal estado.</li>
+            <li><strong>Problemas Hormonales:</strong> Especialmente durante la época de cría, desequilibrios hormonales pueden inducir este comportamiento.</li>
+          </ul>
+          <p><strong>¡Es crucial una visita al veterinario aviar para un chequeo completo y pruebas diagnósticas (análisis de sangre, radiografías, cultivos) para descartar causas médicas!</strong></p>
+
+          <h3>2. Causas Ambientales y de Comportamiento:</h3>
+          <ul>
+            <li><strong>Aburrimiento y Falta de Estimulación:</strong> Los loros son extremadamente inteligentes y necesitan desafíos mentales y actividad. Una jaula vacía y una rutina monótona son caldo de cultivo para el picaje.
+              <p><strong>Producto Relacionado:</strong> <a href="/products/interactive-bird-puzzle-toy">Puzzle Interactivo "Bird Genius Box"</a>.</p>
+            </li>
+            <li><strong>Estrés y Ansiedad:</strong> Cambios en el hogar (mudanzas, nuevas mascotas, ausencia del dueño), miedo, falta de sueño adecuado, exposición a ruidos fuertes o constantes.</li>
+            <li><strong>Problemas de Socialización:</strong> Aislamiento, falta de interacción con su "bandada" humana, o por el contrario, una sobre-dependencia de una persona que luego se ausenta.</li>
+            <li><strong>Frustración Sexual o Reproductiva:</strong> Especialmente en aves solteras durante la temporada de cría.</li>
+            <li><strong>Jaula Inadecuada:</strong> Demasiado pequeña, mal ubicada (zona de mucho tránsito o muy aislada), falta de luz natural adecuada o ciclos de luz incorrectos.
+              <p>Ver nuestro artículo sobre <a href="/aves/articles/iluminacion-climatizacion-aviarios-salud-aves">iluminación y climatización</a>.</p>
+            </li>
+            <li><strong>Falta de Oportunidades de Baño:</strong> El baño ayuda a mantener la salud de la piel y las plumas.</li>
+            <li><strong>Hábito Adquirido:</strong> A veces, incluso si la causa original se resuelve, el picaje puede haberse convertido en un hábito difícil de romper.</li>
+          </ul>
+          <p><strong>Producto Relacionado (para observar y interactuar):</strong> <a href="/products/bird-smart-feeder">Comedero Inteligente "AvianCam" con Cámara</a>.</p>
+
+          <h2>Estrategias de Manejo y Prevención del Picaje:</h2>
+          <p>Una vez descartadas o tratadas las causas médicas, el enfoque se centra en el manejo del comportamiento y el enriquecimiento ambiental.</p>
+          <ol>
+            <li><strong>Enriquecimiento Ambiental Intensivo:</strong>
+              <ul>
+                <li><strong>Juguetes Variados y Rotados:</strong> Ofrece una amplia gama de juguetes para destruir (madera, cartón, cuero vegetal), de forrajeo, puzzles, y manipulables. Rota los juguetes cada pocos días para mantener la novedad.</li>
+                <li><strong>Oportunidades de Forrajeo:</strong> No sirvas toda la comida en un cuenco. Esconde parte en juguetes de forrajeo o en diferentes lugares de la jaula.</li>
+                <li><strong>Entrenamiento con Refuerzo Positivo:</strong> Enseña trucos, fomenta comportamientos deseados. Esto proporciona estimulación mental y fortalece el vínculo.</li>
+              </ul>
+            </li>
+            <li><strong>Mejorar el Entorno:</strong>
+              <ul>
+                <li><strong>Jaula Espaciosa y Bien Ubicada:</strong> Lo más grande posible, en una zona de la casa donde el ave se sienta parte de la familia pero no en el centro del caos.</li>
+                <li><strong>Iluminación de Espectro Completo:</strong> Simula la luz solar natural, crucial para la salud física y mental.</li>
+                <li><strong>Ciclos de Sueño Adecuados:</strong> 10-12 horas de oscuridad ininterrumpida y tranquila.</li>
+                <li><strong>Baños Regulares:</strong> Pulverizaciones, bañera adecuada, o incluso llevarlo a la ducha (si le gusta).</li>
+              </ul>
+            </li>
+            <li><strong>Interacción Social y Ejercicio:</strong>
+              <ul>
+                <li><strong>Tiempo Fuera de la Jaula Supervisado:</strong> Permite que explore, vuele (en un entorno seguro) y juegue.</li>
+                <li><strong>Interacción Positiva Diaria:</strong> Habla con tu loro, acarícialo (si le gusta y dónde le gusta, evitando zonas que puedan estimularlo sexualmente), juega con él.</li>
+              </ul>
+            </li>
+            <li><strong>Manejo del Estrés:</strong> Identifica y minimiza los factores estresantes en su entorno.</li>
+            <li><strong>No Reforzar el Picaje:</strong> Evita prestarle atención excesiva (incluso negativa) justo cuando se está picando. Intenta redirigir su atención a otra actividad.</li>
+            <li><strong>Collares Isabelinos o Chalecos (Como Último Recurso):</strong> Solo bajo estricta supervisión veterinaria y cuando hay riesgo de automutilación grave. No solucionan la causa subyacente.</li>
+          </ol>
+          <p>El manejo del picaje requiere paciencia, dedicación y un enfoque multifactorial. Trabajar de cerca con un veterinario aviar experimentado y, si es necesario, con un consultor de comportamiento aviar, es fundamental para ayudar a tu loro a superar este problema y recuperar su calidad de vida.</p>
+        `,
+        imageUrl: 'https://placehold.co/800x450.png',
+        dataAiHint: 'parrot plucking feathers',
+        category: 'aves',
+        relatedProducts: ['interactive-bird-puzzle-toy', 'bird-smart-feeder'],
+        date: '2024-09-02',
+      },
   ],
 };
 
@@ -771,3 +1278,5 @@ export const getArticleBySlug = (category: PetCategory, slug: string): Article |
 export const getAllArticles = (): Article[] => {
   return Object.values(ARTICLES_DATA).flat().sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 };
+
+    

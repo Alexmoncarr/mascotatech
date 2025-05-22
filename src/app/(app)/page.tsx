@@ -1,36 +1,53 @@
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PET_CATEGORIES_INFO } from '@/data/petInfo';
 import { getAllArticles } from '@/data/articles';
 import ArticleCard from '@/components/pets/ArticleCard';
+import ProductCard from '@/components/pets/ProductCard';
+import { PRODUCT_CATALOG } from '@/data/products';
+import type { Product } from '@/lib/types';
 
 export default function HomePage() {
-  const latestArticles = getAllArticles().slice(0, 3);
+  const latestArticles = getAllArticles().slice(0, 4); // Mostrar 4 artículos
+  
+  // Seleccionar algunos productos destacados manualmente para la home.
+  // Idealmente, esto podría venir de una lógica más avanzada o de una BBDD.
+  const featuredProductIds = ['gps-pet-tracker', 'pet-camera-treat-dispenser', 'cat-laser-toy', 'silent-rodent-wheel'];
+  const featuredProducts = PRODUCT_CATALOG.filter(p => featuredProductIds.includes(p.id));
 
   return (
-    <div className="space-y-12">
-      <section className="text-center py-12 bg-gradient-to-br from-primary/20 via-background to-background rounded-xl shadow-lg">
-        <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+    <div className="space-y-16"> {/* Aumentado el espacio entre secciones */}
+      <section className="text-center py-16 bg-gradient-to-br from-primary/20 via-background to-background rounded-xl shadow-xl"> {/* Aumentado padding y sombra */}
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6"> {/* Aumentado tamaño de título */}
           Bienvenido a MascotaTech
         </h1>
-        <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto mb-8">
-          Tu centro de innovación para el cuidado y la felicidad de tus mascotas. Descubre gadgets, artículos y consejos para mejorar su vida.
+        <p className="text-lg md:text-xl lg:text-2xl text-foreground/80 max-w-3xl mx-auto mb-10"> {/* Aumentado tamaño de párrafo y margen */}
+          Tu centro de innovación para el cuidado y la felicidad de tus mascotas. Descubre los mejores gadgets, artículos y consejos tecnológicos para mejorar su vida y fortalecer vuestro vínculo.
         </p>
+        <div className="space-x-4">
+          <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Link href="#gadgets-estrella">Ver Gadgets Destacados</Link>
+          </Button>
+          <Button asChild variant="outline" size="lg">
+            <Link href="#ultimos-articulos">Leer Nuestros Consejos</Link>
+          </Button>
+        </div>
       </section>
 
       <section>
-        <h2 className="text-3xl font-semibold text-center mb-8 text-foreground">Explora por Mascota</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 text-foreground">Explora por Mascota</h2> {/* Aumentado margen inferior */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"> {/* Aumentado gap */}
           {PET_CATEGORIES_INFO.map((pet) => (
             <Link href={`/${pet.id}`} key={pet.id} className="group">
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300_ ease-in-out_ transform hover:-translate-y-1">
-                <CardHeader className="items-center">
-                  <pet.icon className="w-16 h-16 mb-3 text-primary group-hover:text-accent transition-colors" />
+              <Card className="h-full hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 border-2 border-transparent hover:border-primary"> {/* Mejorado efecto hover */}
+                <CardHeader className="items-center pt-8 pb-4"> {/* Ajustado padding */}
+                  <pet.icon className="w-20 h-20 mb-4 text-primary group-hover:text-accent transition-colors duration-300" /> {/* Aumentado tamaño icono */}
                   <CardTitle className="text-2xl text-center">{pet.name}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-center">{pet.description}</CardDescription>
+                  <CardDescription className="text-center text-md">{pet.description}</CardDescription> {/* Aumentado tamaño texto */}
                 </CardContent>
               </Card>
             </Link>
@@ -38,25 +55,62 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="text-center py-10">
-        <h2 className="text-3xl font-semibold mb-4 text-foreground">Últimos Artículos</h2>
+      {featuredProducts.length > 0 && (
+        <section id="gadgets-estrella" className="py-12">
+          <h2 className="text-3xl md:text-4xl font-semibold text-center mb-6 text-foreground">Gadgets Estrella de MascotaTech</h2>
+          <p className="text-lg text-center text-foreground/80 max-w-3xl mx-auto mb-12">
+            Descubre nuestra selección de productos innovadores diseñados para mejorar la vida de tus mascotas y facilitar su cuidado. Tecnología y cariño en cada gadget.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {featuredProducts.map((product) => (
+              <ProductCard key={product.id} product={product as Product} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section className="py-16 bg-secondary/30 rounded-xl shadow-lg">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8">Innovación Constante para el Bienestar Animal</h2>
+          <p className="text-lg md:text-xl text-foreground/80 mb-6 max-w-3xl mx-auto">
+            En <strong>MascotaTech</strong>, creemos que la tecnología es una gran aliada en el <em>cuidado y la felicidad</em> de nuestros compañeros animales. Desde <strong>comederos inteligentes</strong> que aseguran una nutrición precisa, hasta <strong>localizadores GPS</strong> que te dan tranquilidad, y <strong>juguetes interactivos</strong> que estimulan su mente y cuerpo.
+          </p>
+          <p className="text-lg md:text-xl text-foreground/80 max-w-3xl mx-auto mb-8">
+            Explora nuestras guías expertas, artículos detallados y recomendaciones de <em>gadgets para mascotas</em> para descubrir cómo los últimos avances pueden ayudarte a ser un mejor dueño y a fortalecer el vínculo con tu <strong>perro, gato, roedor o ave</strong>. Nuestro objetivo es ofrecerte información de calidad y una cuidada selección de <strong>accesorios tecnológicos para mascotas</strong> que realmente marcan la diferencia en su día a día.
+          </p>
+          <Button asChild size="lg">
+            <Link href={`/${PET_CATEGORIES_INFO[0].id}`}>Explora Nuestros Gadgets</Link>
+          </Button>
+        </div>
+      </section>
+
+      <section id="ultimos-articulos" className="py-12">
+        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-6 text-foreground">Últimos Artículos de Nuestro Blog</h2>
         {latestArticles.length > 0 ? (
           <>
-            <p className="text-lg text-foreground/80 mb-8">
-              Mantente al día con nuestros consejos y análisis sobre el mundo de las mascotas y la tecnología.
+            <p className="text-lg text-center text-foreground/80 max-w-3xl mx-auto mb-12">
+              Mantente al día con nuestros consejos, guías y análisis sobre el mundo de las mascotas y la tecnología. Información útil para cuidar mejor a tu compañero.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {latestArticles.map(article => (
                 <ArticleCard key={article.slug} article={article} />
               ))}
             </div>
+            <div className="text-center mt-12">
+              <Button asChild variant="link" className="text-lg">
+                 {/* Idealmente, aquí iría un enlace a una página de listado de todos los artículos del blog */}
+                <Link href={`/${latestArticles[0].category}/articles/${latestArticles[0].slug}`}>Ver más artículos</Link>
+              </Button>
+            </div>
           </>
         ) : (
-          <p className="text-lg text-foreground/80 mb-8">
-            Próximamente encontrarás nuestros últimos artículos aquí. ¡Vuelve pronto!
+          <p className="text-lg text-center text-foreground/80 my-10">
+            Próximamente encontrarás nuestros últimos artículos aquí. ¡Vuelve pronto para descubrir contenido fresco y útil para ti y tu mascota!
           </p>
         )}
       </section>
     </div>
   );
 }
+
+    
