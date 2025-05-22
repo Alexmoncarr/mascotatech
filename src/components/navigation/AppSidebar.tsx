@@ -36,7 +36,8 @@ export default function AppSidebar() {
                   asChild
                 >
                   <a>
-                    <item.icon className="h-5 w-5" />
+                    {/* Icon size is now handled by SidebarMenuButton's internal styling (size-4) */}
+                    <item.icon /> 
                     <span>{item.name}</span>
                   </a>
                 </SidebarMenuButton>
