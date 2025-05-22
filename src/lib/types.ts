@@ -16,7 +16,6 @@ export interface Product {
   description: string;
   imageUrl: string;
   affiliateUrl: string;
-  price?: string;
   dataAiHint: string; // For next/image placeholder
   category: PetCategory[]; // Can belong to multiple categories
 }
@@ -31,9 +30,4 @@ export interface Article {
   category: PetCategory;
   relatedProducts?: string[]; // Array of product IDs
   date: string; // e.g., "2024-07-15"
-}
-
-export interface GadgetRecommendation {
-  productName: string;
-  reasoning: string;
 }

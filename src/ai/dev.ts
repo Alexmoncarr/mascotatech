@@ -1,4 +1,5 @@
 import { config } from 'dotenv';
 config();
 
-import '@/ai/flows/gadget-recommendation.ts';
+// No flows imported for now. Genkit dev server can still run.
+// Add imports here when new flows are created.

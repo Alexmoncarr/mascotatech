@@ -23,7 +23,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       </CardHeader>
       <CardContent className="flex-grow p-6 space-y-2">
         <CardTitle className="text-lg_ leading-tight">{product.name}</CardTitle>
-        {product.price && <p className="text-xl font-semibold text-primary">{product.price}</p>}
+        {/* Price display removed */}
         <CardDescription className="text-foreground/80_ line-clamp-3">{product.description}</CardDescription>
       </CardContent>
       <CardFooter className="p-6 pt-0">

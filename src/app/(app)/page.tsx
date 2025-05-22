@@ -1,11 +1,9 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PET_CATEGORIES_INFO } from '@/data/petInfo';
 import { getAllArticles } from '@/data/articles';
 import ArticleCard from '@/components/pets/ArticleCard';
-import { ArrowRight, Lightbulb } from 'lucide-react';
 
 export default function HomePage() {
   const latestArticles = getAllArticles().slice(0, 3);
@@ -19,12 +17,6 @@ export default function HomePage() {
         <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto mb-8">
           Tu centro de innovación para el cuidado y la felicidad de tus mascotas. Descubre gadgets, artículos y consejos para mejorar su vida.
         </p>
-        <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-md transition-transform hover:scale-105">
-          <Link href="/recommendations">
-            <Lightbulb className="mr-2 h-5 w-5" />
-            Prueba Nuestro Recomendador IA
-          </Link>
-        </Button>
       </section>
 
       <section>
@@ -44,25 +36,6 @@ export default function HomePage() {
             </Link>
           ))}
         </div>
-      </section>
-
-      <section className="py-10">
-        <Card className="bg-secondary/50">
-            <CardHeader>
-                <CardTitle className="text-2xl md:text-3xl text-primary">¿Buscas el gadget perfecto?</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-                <p className="text-foreground/80">
-                Nuestro recomendador inteligente utiliza IA para analizar las necesidades y personalidad de tu mascota, sugiriendo los productos más adecuados de nuestro catálogo. ¡Es como tener un experto en gadgets para mascotas a tu disposición!
-                </p>
-                <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                    <Link href="/recommendations">
-                        Obtener Recomendaciones
-                        <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                </Button>
-            </CardContent>
-        </Card>
       </section>
 
       <section className="text-center py-10">

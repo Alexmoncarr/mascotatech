@@ -1,5 +1,5 @@
 import type { PetTypeInfo, PetCategory } from '@/lib/types';
-import { Dog, Cat, Rat, Bird, PawPrint, Home, Lightbulb } from 'lucide-react';
+import { Dog, Cat, Rat, Bird, Home } from 'lucide-react';
 
 export const PET_CATEGORIES_INFO: PetTypeInfo[] = [
   { id: 'perros', name: 'Perros', icon: Dog, description: 'Todo para tu mejor amigo canino.', dataAiHint: 'happy dog' },
@@ -15,12 +15,6 @@ export const getPetCategoryInfo = (id: PetCategory): PetTypeInfo | undefined => 
 export const NAV_ITEMS = [
   { name: 'Inicio', href: '/', icon: Home },
   ...PET_CATEGORIES_INFO.map(pet => ({ name: pet.name, href: `/${pet.id}`, icon: pet.icon })),
-  { name: 'Recomendador IA', href: '/recommendations', icon: Lightbulb },
 ];
 
-export const PET_TYPES_FOR_AI_SELECT: { value: string; label: string }[] = [
-    { value: 'dog', label: 'Perro' },
-    { value: 'cat', label: 'Gato' },
-    { value: 'rodent', label: 'Roedor' },
-    { value: 'bird', label: 'Ave' },
-];
+// PET_TYPES_FOR_AI_SELECT was removed as it's no longer used.
