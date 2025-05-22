@@ -16,7 +16,6 @@ export interface Product {
   description: string;
   imageUrl: string;
   affiliateUrl: string;
-  price?: string;
   dataAiHint: string; // For next/image placeholder
   category: PetCategory[]; // Can belong to multiple categories
 }
