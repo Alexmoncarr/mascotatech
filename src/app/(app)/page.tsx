@@ -3,9 +3,13 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PET_CATEGORIES_INFO } from '@/data/petInfo';
+import { getAllArticles } from '@/data/articles';
+import ArticleCard from '@/components/pets/ArticleCard';
 import { ArrowRight, Lightbulb } from 'lucide-react';
 
 export default function HomePage() {
+  const latestArticles = getAllArticles().slice(0, 3);
+
   return (
     <div className="space-y-12">
       <section className="text-center py-12 bg-gradient-to-br from-primary/20 via-background to-background rounded-xl shadow-lg">
@@ -63,26 +67,22 @@ export default function HomePage() {
 
       <section className="text-center py-10">
         <h2 className="text-3xl font-semibold mb-4 text-foreground">Últimos Artículos</h2>
-        <p className="text-lg text-foreground/80 mb-8">
-          Mantente al día con nuestros consejos y análisis sobre el mundo de las mascotas y la tecnología.
-        </p>
-        {/* Placeholder for latest articles - could be fetched dynamically */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[1,2,3].map(i => (
-            <Card key={i} className="text-left">
-              <CardHeader>
-                <Image src={`https://placehold.co/600x400.png`} alt="Artículo destacado" width={600} height={400} className="rounded-md mb-4" data-ai-hint="pet technology" />
-                <CardTitle>Título del Artículo {i}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>Un breve extracto del artículo sobre lo último en tecnología para mascotas...</CardDescription>
-                <Button variant="link" asChild className="px-0 text-primary">
-                  <Link href="#">Leer Más <ArrowRight className="ml-1 h-4 w-4" /></Link>
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+        {latestArticles.length > 0 ? (
+          <>
+            <p className="text-lg text-foreground/80 mb-8">
+              Mantente al día con nuestros consejos y análisis sobre el mundo de las mascotas y la tecnología.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {latestArticles.map(article => (
+                <ArticleCard key={article.slug} article={article} />
+              ))}
+            </div>
+          </>
+        ) : (
+          <p className="text-lg text-foreground/80 mb-8">
+            Próximamente encontrarás nuestros últimos artículos aquí. ¡Vuelve pronto!
+          </p>
+        )}
       </section>
     </div>
   );
