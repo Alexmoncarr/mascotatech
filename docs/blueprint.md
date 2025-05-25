@@ -1,4 +1,4 @@
-# **App Name**: MascotaTech
+# **App Name**: Gadgets para mascotas
 
 ## Core Features:
 

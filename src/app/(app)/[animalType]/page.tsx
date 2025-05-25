@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: AnimalPageProps): Promise<Met
     return { title: 'Categoría no encontrada' };
   }
   return {
-    title: `Gadgets, Accesorios y Consejos para ${petInfo.name} - Compra Online en MascotaTech`,
+    title: `Gadgets, Accesorios y Consejos para ${petInfo.name} - Compra Online en Gadgets para mascotas`,
     description: `Descubre los mejores artículos, productos y gadgets tecnológicos para ${petInfo.name}. ${petInfo.description} Encuentra *ofertas* y el mejor *precio* para *comprar online*.`,
   };
 }
@@ -58,7 +58,7 @@ export default function AnimalPage({ params }: AnimalPageProps) {
         <div className="relative z-10 container mx-auto text-center">
           <petInfo.icon className="w-20 h-20 md:w-24 md:h-24 mx-auto mb-6 text-primary" />
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Todo sobre {petInfo.name} en MascotaTech: Accesorios, Juguetes y Más
+            Todo sobre {petInfo.name} en Gadgets para mascotas: Accesorios, Juguetes y Más
           </h1>
           <p className="text-lg md:text-xl text-foreground/80 max-w-3xl mx-auto">
             {petInfo.description} Explora nuestra selección de artículos informativos, guías de cuidado y los productos tecnológicos más innovadores para tu {petInfo.name}. Aquí podrás *comprar* todo lo que necesitas, desde un *comedero* hasta una *cama* o *accesorios* específicos. ¡Las mejores *ofertas* en nuestra *tienda online*!
@@ -88,13 +88,13 @@ export default function AnimalPage({ params }: AnimalPageProps) {
             Tecnología Innovadora para tu {petInfo.name}: Calidad y Venta Online
           </h2>
           <p className="text-lg md:text-xl text-foreground/80 mb-6 max-w-3xl mx-auto">
-            En <strong>MascotaTech</strong>, tu *tienda online* de confianza, estamos comprometidos con encontrar y presentarte los avances tecnológicos más recientes y efectivos para el cuidado de tu {petInfo.name}. 
+            En <strong>Gadgets para mascotas</strong>, tu *tienda online* de confianza, estamos comprometidos con encontrar y presentarte los avances tecnológicos más recientes y efectivos para el cuidado de tu {petInfo.name}. 
             Desde soluciones para su entretenimiento y ejercicio, hasta herramientas que facilitan su alimentación, seguridad y bienestar general. Si buscas *comprar online cama ortopédica para perro mayor* o un *rascador* para tu gato, aquí encontrarás información valiosa.
             Creemos que la tecnología de *calidad premium* puede ser una gran aliada para fortalecer el vínculo con tu {petInfo.name} y asegurar que viva una vida plena y feliz.
           </p>
           <p className="text-lg md:text-xl text-foreground/80 max-w-3xl mx-auto mb-10">
             Explora nuestra selección de artículos y productos destacados para {petInfo.name} y descubre cómo los <em>gadgets más innovadores</em> pueden transformar su día a día. 
-            Ya sea que busques mejorar su actividad física, estimular su mente con *juguetes* interactivos, o simplemente encontrar nuevas formas de mimarlo con *golosinas* o *snacks* (que recomendamos en artículos), en MascotaTech encontrarás lo que necesitas para llevar el cuidado de tu {petInfo.name} al siguiente nivel. Aprovecha nuestro *envío* y *promociones*.
+            Ya sea que busques mejorar su actividad física, estimular su mente con *juguetes* interactivos, o simplemente encontrar nuevas formas de mimarlo con *golosinas* o *snacks* (que recomendamos en artículos), en Gadgets para mascotas encontrarás lo que necesitas para llevar el cuidado de tu {petInfo.name} al siguiente nivel. Aprovecha nuestro *envío* y *promociones*.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
             <Link href={`/${animalType}#productos-recomendados`}>Descubre Gadgets y Accesorios para {petInfo.name}</Link>

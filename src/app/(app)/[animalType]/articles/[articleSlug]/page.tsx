@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     return { title: 'Artículo no encontrado' };
   }
   return {
-    title: `${article.title} - MascotaTech`,
+    title: `${article.title} - Gadgets para mascotas`,
     description: article.excerpt,
   };
 }

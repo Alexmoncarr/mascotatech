@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'MascotaTech - Gadgets Innovadores para Mascotas',
+  title: 'Gadgets para mascotas - Gadgets Innovadores para Mascotas',
   description: 'Descubre los mejores gadgets y artículos para perros, gatos, roedores y aves. Consejos, productos y recomendaciones personalizadas con IA.',
 };
 
