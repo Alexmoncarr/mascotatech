@@ -22,7 +22,7 @@ export default function HomePage() {
           Bienvenido a Gadgets para mascotas: Tu Tienda Online de Gadgets para Mascotas
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl text-foreground/80 max-w-3xl mx-auto mb-10">
-          Tu centro de innovación para el cuidado y la felicidad de tus mascotas. En nuestra *tienda online* podrás *comprar* y descubrir los mejores *gadgets*, *accesorios* y *juguetes* tecnológicos para mejorar su vida y fortalecer vuestro vínculo. Explora nuestro *catálogo* y encuentra *ofertas* y *descuentos* en productos de *calidad premium*. ¡Disfruta de *envío* rápido en una amplia *venta* de artículos!
+          Tu centro de innovación para el cuidado y la felicidad de tus mascotas. En nuestra tienda online podrás comprar y descubrir los mejores gadgets, accesorios y juguetes tecnológicos para mejorar su vida y fortalecer vuestro vínculo. Explora nuestro catálogo y encuentra ofertas y descuentos en productos de calidad premium. ¡Disfruta de envío rápido en una amplia venta de artículos!
         </p>
         <div className="space-x-4">
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
@@ -45,7 +45,7 @@ export default function HomePage() {
                   <CardTitle className="text-2xl text-center">{pet.name}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-center text-md">{pet.description} Encuentra aquí el *pienso*, *alimento*, *cama* o *transportín* ideal.</CardDescription>
+                  <CardDescription className="text-center text-md">{pet.description} Encuentra aquí el pienso, alimento, cama o transportín ideal.</CardDescription>
                 </CardContent>
               </Card>
             </Link>
@@ -57,7 +57,7 @@ export default function HomePage() {
         <section id="gadgets-estrella" className="py-12">
           <h2 className="text-3xl md:text-4xl font-semibold text-center mb-6 text-foreground">Gadgets Estrella de Gadgets para mascotas: ¡Ofertas Imperdibles!</h2>
           <p className="text-lg text-center text-foreground/80 max-w-3xl mx-auto mb-12">
-            Descubre nuestra selección de productos innovadores diseñados para mejorar la vida de tus mascotas y facilitar su cuidado. Desde un *collar* moderno hasta un *rascador* divertido o una *jaula* espaciosa. Tecnología y cariño en cada gadget. Aprovecha nuestras *promociones* y *descuentos*.
+            Descubre nuestra selección de productos innovadores diseñados para mejorar la vida de tus mascotas y facilitar su cuidado. Desde un collar moderno hasta un rascador divertido o una jaula espaciosa. Tecnología y cariño en cada gadget. Aprovecha nuestras promociones y descuentos.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {featuredProducts.map((product) => (
@@ -71,10 +71,10 @@ export default function HomePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8">Innovación Constante para el Bienestar Animal: Calidad y Precio</h2>
           <p className="text-lg md:text-xl text-foreground/80 mb-6 max-w-3xl mx-auto">
-            En <strong>Gadgets para mascotas</strong>, creemos que la tecnología es una gran aliada en el <em>cuidado y la felicidad</em> de nuestros compañeros animales. Desde <strong>comederos inteligentes</strong> que aseguran una nutrición precisa, hasta <strong>localizadores GPS</strong> que te dan tranquilidad, y <strong>juguetes interactivos</strong> que estimulan su mente y cuerpo. Si te preguntas *dónde comprar arena aglomerante para gatos barata* o buscas el *mejor precio de transportín para perros pequeños*, nuestro objetivo es guiarte hacia las mejores opciones de *compra* a través de nuestros partners.
+            En <strong>Gadgets para mascotas</strong>, creemos que la tecnología es una gran aliada en el <em>cuidado y la felicidad</em> de nuestros compañeros animales. Desde <strong>comederos inteligentes</strong> que aseguran una nutrición precisa, hasta <strong>localizadores GPS</strong> que te dan tranquilidad, y <strong>juguetes interactivos</strong> que estimulan su mente y cuerpo. Si te preguntas dónde comprar arena aglomerante para gatos barata o buscas el mejor precio de transportín para perros pequeños, nuestro objetivo es guiarte hacia las mejores opciones de compra a través de nuestros partners.
           </p>
           <p className="text-lg md:text-xl text-foreground/80 max-w-3xl mx-auto mb-8">
-            Explora nuestras guías expertas, artículos detallados y recomendaciones de <em>gadgets para mascotas</em> para descubrir cómo los últimos avances pueden ayudarte a ser un mejor dueño y a fortalecer el vínculo con tu <strong>perro, gato, roedor o ave</strong>. Nuestro objetivo es ofrecerte información de *calidad* y una cuidada selección de <strong>accesorios tecnológicos para mascotas</strong> que realmente marcan la diferencia en su día a día. Considera *adquirir* un *arnés antitirones para perro mediano* o *comprar online cama ortopédica para perro mayor* para mejorar su confort. Incluso si buscas un *champú antiparasitario* o *suplementos* y *vitaminas*, te orientamos.
+            Explora nuestras guías expertas, artículos detallados y recomendaciones de <em>gadgets para mascotas</em> para descubrir cómo los últimos avances pueden ayudarte a ser un mejor dueño y a fortalecer el vínculo con tu <strong>perro, gato, roedor o ave</strong>. Nuestro objetivo es ofrecerte información de calidad y una cuidada selección de <strong>accesorios tecnológicos para mascotas</strong> que realmente marcan la diferencia en su día a día. Considera adquirir un arnés antitirones para perro mediano o comprar online cama ortopédica para perro mayor para mejorar su confort. Incluso si buscas un champú antiparasitario o suplementos y vitaminas, te orientamos.
           </p>
           <Button asChild size="lg">
             <Link href={`/${PET_CATEGORIES_INFO[0].id}`}>Explora Nuestros Gadgets y Accesorios</Link>
@@ -87,7 +87,7 @@ export default function HomePage() {
         {latestArticles.length > 0 ? (
           <>
             <p className="text-lg text-center text-foreground/80 max-w-3xl mx-auto mb-12">
-              Mantente al día con nuestros consejos, guías y análisis sobre el mundo de las mascotas y la tecnología. Información útil para cuidar mejor a tu compañero. Desde cómo elegir *huesos* y *snacks* hasta la importancia de un buen *cepillo* o *peine*.
+              Mantente al día con nuestros consejos, guías y análisis sobre el mundo de las mascotas y la tecnología. Información útil para cuidar mejor a tu compañero. Desde cómo elegir huesos y snacks hasta la importancia de un buen cepillo o peine.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {latestArticles.map(article => (
@@ -102,10 +102,11 @@ export default function HomePage() {
           </>
         ) : (
           <p className="text-lg text-center text-foreground/80 my-10">
-            Próximamente encontrarás nuestros últimos artículos aquí. ¡Vuelve pronto para descubrir contenido fresco y útil para ti y tu mascota! Podrás *comprar* los mejores *accesorios* y conocer *ofertas*.
+            Próximamente encontrarás nuestros últimos artículos aquí. ¡Vuelve pronto para descubrir contenido fresco y útil para ti y tu mascota! Podrás comprar los mejores accesorios y conocer ofertas.
           </p>
         )}
       </section>
     </div>
   );
 }
+
