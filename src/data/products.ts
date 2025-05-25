@@ -1,10 +1,11 @@
+
 import type { Product } from '@/lib/types';
 
 export const PRODUCT_CATALOG: Product[] = [
   {
     id: 'dog-ball-launcher',
     name: 'Lanzador Automático de Pelotas para Perros',
-    description: 'Mantiene a tu perro entretenido lanzando pelotas automáticamente. Ideal para perros activos y juguetones.',
+    description: 'Mantiene a tu perro entretenido lanzando pelotas automáticamente. Un *juguete* ideal para perros activos y juguetones. Un *accesorio* de *calidad* para *comprar*.',
     imageUrl: 'https://placehold.co/600x400.png',
     affiliateUrl: '#',
     dataAiHint: 'dog toy',
@@ -13,7 +14,7 @@ export const PRODUCT_CATALOG: Product[] = [
   {
     id: 'cat-laser-toy',
     name: 'Juguete Láser Interactivo para Gatos',
-    description: 'Estimula el instinto de caza de tu gato con patrones láser aleatorios. Apagado automático.',
+    description: 'Estimula el instinto de caza de tu gato con patrones láser aleatorios. Apagado automático. Un *juguete* popular y *económico* para *comprar online*.',
     imageUrl: 'https://placehold.co/600x400.png',
     affiliateUrl: '#',
     dataAiHint: 'cat toy',
@@ -22,7 +23,7 @@ export const PRODUCT_CATALOG: Product[] = [
   {
     id: 'rodent-maze-house',
     name: 'Casa Laberinto para Roedores',
-    description: 'Un divertido y estimulante laberinto de madera para hámsters, jerbos y otros pequeños roedores.',
+    description: 'Un divertido y estimulante laberinto de madera para hámsters, jerbos y otros pequeños roedores. Un *accesorio* de *calidad* para su *jaula*. Disponible para *comprar*.',
     imageUrl: 'https://placehold.co/600x400.png',
     affiliateUrl: '#',
     dataAiHint: 'rodent habitat',
@@ -31,7 +32,7 @@ export const PRODUCT_CATALOG: Product[] = [
   {
     id: 'bird-smart-feeder',
     name: 'Comedero Inteligente para Aves con Cámara',
-    description: 'Observa y alimenta a tus aves con este comedero que incluye cámara y dispensador programable.',
+    description: 'Observa y alimenta a tus aves con este *comedero* que incluye cámara y dispensador programable. Un *accesorio premium* para *comprar*.',
     imageUrl: 'https://placehold.co/600x400.png',
     affiliateUrl: '#',
     dataAiHint: 'bird feeder',
@@ -40,7 +41,7 @@ export const PRODUCT_CATALOG: Product[] = [
   {
     id: 'gps-pet-tracker',
     name: 'Rastreador GPS para Mascotas',
-    description: 'Localiza a tu mascota en tiempo real con este ligero y resistente rastreador GPS. Apto para perros y gatos.',
+    description: 'Localiza a tu mascota en tiempo real con este ligero y resistente rastreador GPS. Un *accesorio* de seguridad apto para perros y gatos. Ideal para *comprar* y tener tranquilidad.',
     imageUrl: 'https://placehold.co/600x400.png',
     affiliateUrl: '#',
     dataAiHint: 'pet tracker',
@@ -49,7 +50,7 @@ export const PRODUCT_CATALOG: Product[] = [
   {
     id: 'pet-camera-treat-dispenser',
     name: 'Cámara con Dispensador de Premios',
-    description: 'Vigila a tu mascota y dale premios remotamente a través de tu smartphone. Comunicación bidireccional.',
+    description: 'Vigila a tu mascota y dale *premios* remotamente a través de tu smartphone. Comunicación bidireccional. Un *accesorio* tecnológico para *comprar* y conectar.',
     imageUrl: 'https://placehold.co/600x400.png',
     affiliateUrl: '#',
     dataAiHint: 'pet camera',
@@ -58,7 +59,7 @@ export const PRODUCT_CATALOG: Product[] = [
   {
     id: 'silent-rodent-wheel',
     name: 'Rueda de Ejercicio Silenciosa para Roedores',
-    description: 'Permite que tu roedor haga ejercicio sin ruidos molestos. Diseño seguro y duradero.',
+    description: 'Permite que tu roedor haga ejercicio sin ruidos molestos. Diseño seguro y duradero. Una *rueda* de *calidad* para *comprar* para su *jaula*.',
     imageUrl: 'https://placehold.co/600x400.png',
     affiliateUrl: '#',
     dataAiHint: 'rodent wheel',
@@ -67,7 +68,7 @@ export const PRODUCT_CATALOG: Product[] = [
   {
     id: 'interactive-bird-puzzle-toy',
     name: 'Juguete Puzzle Interactivo para Aves',
-    description: 'Estimula la inteligencia de tu ave con este juguete de forrajeo y puzzle. Materiales seguros.',
+    description: 'Estimula la inteligencia de tu ave con este *juguete* de forrajeo y puzzle. Materiales seguros. Un excelente *accesorio* para *comprar* y enriquecer su *jaula*.',
     imageUrl: 'https://placehold.co/600x400.png',
     affiliateUrl: '#',
     dataAiHint: 'bird toy',
