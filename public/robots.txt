@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.gadgetsparamascotas.es
+
+# Sitemaps
+Sitemap: https://www.gadgetsparamascotas.es/sitemap.xml
