@@ -9,13 +9,9 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
+    domains: [
+      'm.media-amazon.com',
+      // agrega aquí otros dominios si usas imágenes de otros sitios
     ],
   },
 };
