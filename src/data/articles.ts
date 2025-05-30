@@ -41,7 +41,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         <h2>Conclusión: Tecnología para un Vínculo Más Fuerte y Compras Inteligentes en Tiendas Asociadas</h2>
         <p>Adoptar estos gadgets no solo mejora la calidad de vida de tu perro activo, sino que también te ofrece nuevas formas de interactuar y cuidarlo. Recuerda elegir productos de calidad, seguros y adaptados a las necesidades específicas de tu fiel amigo. Nuestra guía de productos y recomendaciones te ayudará a encontrar las mejores ofertas en tiendas asociadas.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/pet-7106365_1280.jpg',
       dataAiHint: 'dog running park',
       category: 'perros',
       relatedProducts: ['dog-ball-launcher', 'gps-pet-tracker', 'pet-camera-treat-dispenser'],
@@ -94,7 +94,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         <h2>Consideraciones Adicionales al Comprar en Plataformas Online</h2>
         <p>Piensa en el temperamento de tu perro. Si es muy ansioso o destructivo, busca modelos robustos y a prueba de "robos". Lee opiniones de otros usuarios sobre la fiabilidad y facilidad de uso del software si eliges un modelo conectado. Un comedero inteligente es una excelente inversión en la salud y bienestar de tu perro, y en tu propia tranquilidad. Explora nuestras recomendaciones y busca promociones con envío en las tiendas vinculadas. Analiza tus necesidades y las de tu mascota para elegir el modelo que mejor se adapte a vuestro estilo de vida.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/dog-food-5168940_1280.jpg',
       dataAiHint: 'dog eating food',
       category: 'perros',
       relatedProducts: ['pet-camera-treat-dispenser'],
@@ -160,7 +160,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         </ul>
         <p>Invertir en una buena selección de juguetes interactivos es una de las mejores cosas que puedes hacer por el bienestar físico y mental de tu perro. ¡La diversión y los beneficios están garantizados! Revisa las ofertas y guías de compra hoy.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/dog-3066476_1280.jpg',
       dataAiHint: 'dog playing puzzle',
       category: 'perros',
       relatedProducts: ['dog-ball-launcher', 'pet-camera-treat-dispenser'],
@@ -212,7 +212,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         <h2>Conclusión: Tranquilidad para Ti, Protección para Él - Explora el Catálogo de Recomendaciones</h2>
         <p>Invertir en tecnología de seguridad para tu perro no es un lujo, sino una responsabilidad. Estos gadgets te proporcionan paz mental y herramientas para actuar rápidamente en caso de emergencia. Evalúa tus necesidades y el entorno de tu perro para elegir las soluciones más adecuadas y disfrutar de vuestra vida juntos con mayor seguridad. Revisa nuestro catálogo de recomendaciones para encontrar ofertas y realiza tu compra informada a través de tiendas asociadas, aprovechando sus opciones de envío.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/sofa-7112236_1280.jpg',
       dataAiHint: 'dog safe home',
       category: 'perros',
       relatedProducts: ['gps-pet-tracker', 'pet-camera-treat-dispenser'],
@@ -266,7 +266,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
 
         <p>El entrenamiento con refuerzo positivo es un viaje gratificante que construye una base sólida de confianza y comunicación con tu cachorro. ¡Disfruta del proceso y celebra cada logro! Recuerda que comprar snacks de adiestramiento para perros de calidad en tiendas online es una buena inversión.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/animal-4085255_1280.jpg',
       dataAiHint: 'puppy training class',
       category: 'perros',
       relatedProducts: ['pet-camera-treat-dispenser'],
@@ -328,7 +328,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         </ul>
         <p>Viajar con tu perro puede crear recuerdos inolvidables. Con la preparación adecuada y los gadgets correctos de nuestro catálogo de recomendaciones online, ¡la aventura será un éxito para todos! Haz tu búsqueda y compara precios en tiendas asociadas, aprovechando sus opciones de envío.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/machine-5213060_1280.jpg',
       dataAiHint: 'dog car travel',
       category: 'perros',
       relatedProducts: ['gps-pet-tracker', 'dog-ball-launcher'],
@@ -404,7 +404,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         </ul>
         <p>La tecnología puede ser una gran aliada, pero recuerda que la clave está en un enfoque integral que combine manejo, entrenamiento y, si es necesario, la ayuda de un profesional. Explora nuestro catálogo de recomendaciones para comprar los gadgets que mejor se adapten a tus necesidades en tiendas online y aprovecha las ofertas y descuentos.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/dog-1846066_1280.jpg',
       dataAiHint: 'sad dog window',
       category: 'perros',
       relatedProducts: ['pet-camera-treat-dispenser', 'gps-pet-tracker'],
@@ -448,7 +448,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         </ul>
         <p>Proporcionar a tu perro una cama cómoda y adecuada es una muestra de cariño que mejorará su calidad de vida. Explora las opciones y ofertas disponibles en tiendas online para encontrar la cama perfecta para tu fiel compañero. Considera el envío al hacer tu pedido.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/springer-4094776_1280.jpg',
       dataAiHint: 'dog sleeping bed',
       category: 'perros',
       relatedProducts: [],
@@ -491,7 +491,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         <p>Introduce el transportín de forma positiva mucho antes de necesitar usarlo. Déjalo abierto en casa con una manta cómoda y premios dentro. Aliméntalo cerca o dentro. Haz que sea un lugar agradable y seguro, no asociado solo con experiencias negativas como ir al veterinario.</p>
         <p>Elegir el transportín adecuado es una inversión en la seguridad y el bienestar de tu perro. Tómate tu tiempo para investigar y comprar el modelo que mejor se adapte a tus necesidades y a las de tu fiel compañero. Explora las opciones de venta online para encontrar variedad y buenos precios.</p>
       `,
-      imageUrl: 'https://placehold.co/800x450.png',
+      imageUrl: '/cage-7667119_1280.jpg',
       dataAiHint: 'dog travel crate',
       category: 'perros',
       relatedProducts: [],
