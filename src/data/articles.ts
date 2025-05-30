@@ -362,7 +362,7 @@ export const ARTICLES_DATA: Record<PetCategory, Article[]> = {
         </ul>
         <p>Cuidar la salud dental de tu perro es un acto de amor que contribuye enormemente a su calidad de vida. Con los productos adecuados y una rutina constante, puedes ayudar a mantener su sonrisa brillante y su cuerpo sano. Revisa las ofertas en tiendas online asociadas y realiza tu compra informada hoy mismo.</p>
       `,
-      imageUrl: 'mascotatech/public/snout-1444697_1280.jpg',
+      imageUrl: '/snout-1444697_1280.jpg',
       dataAiHint: 'dog toothbrush',
       category: 'perros',
       relatedProducts: ['dog-ball-launcher'],
